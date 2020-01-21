@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+  <title>Star Wars - hra</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="pozadi">
+  <header class="jumbotron-fluid text-center pozadi">
+      <div><a href="../hlavni_strana/index.html"> <img class="obrazek" src="../hlavni_strana/images/logo_final.png"
+            alt="logo"></a></div>
+  </header>
+  <main class="text-center">
+    <div class="center1 row">
+      <div><button onclick="obtiznost1()" class="tlacitko1" type="button">ÚROVEŇ 1</button></div>
+      <div><button onclick="obtiznost2()" class="tlacitko1" type="button">ÚROVEŇ 2</button></div>
+      <div><button onclick="obtiznost3()" class="tlacitko1" type="button">ÚROVEŇ 3</button></div>
+    </div>
+    <div class="center1 row">
+      <div><img id="l1" class="azmenseny" src="../spolecna_pozadi/lock1.jpg" alt="zamkly_uspech"></div>
+      <div><img id="l2" class="azmenseny" src="../spolecna_pozadi/lock2.jpg" alt="zamkly_uspech"></div>
+      <div><img id="l3" class="azmenseny" src="../spolecna_pozadi/lock3.jpg" alt="zamkly_uspech"></div>
+      <div><img id="l4" class="azmenseny" src="../spolecna_pozadi/lock4.jpg" alt="zamkly_uspech"></div>
+      <div><img id="l5" class="azmenseny" src="../spolecna_pozadi/lock5.jpg" alt="zamkly_uspech"></div>
+      <div><canvas class="canvascss" id="canvas" width="288" height="512" style="border:3px solid #FFE81F"></canvas>
+      </div>
+      <div><img id="l6" class="azmenseny" src="../spolecna_pozadi/lock6.jpg" aslt="zamkly_uspech"></div>
+      <div><img id="l7" class="azmenseny" src="../spolecna_pozadi/lock7.jpg" alt="zamkly_uspech"></div>
+      <div><img id="l8" class="azmenseny" src="../spolecna_pozadi/lock8.jpg" alt="zamkly_uspech"></div>
+      <div><img id="l9" class="azmenseny" src="../spolecna_pozadi/lock9.jpg" alt="zamkly_uspech"></div>
+      <div><img id="l10" class="azmenseny" src="../spolecna_pozadi/lock10.jpg" alt="zamkly_uspech"></div>
+    </div>
+    <div><button onclick="draw(); this.onclick=null;" class="tlacitko2" type="button">NASTARTUJ</button></div>
+    <div><button type="button" class="tlacitko2" data-toggle="modal" data-target="#myModal">NASTAVENÍ</button></div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="nastaveni2">NASTAVENÍ HRY</div>
+            <div class="nastaveni3">
+              GRAVITACE
+              <div class="slidecontainer">
+                <input type="range" min="1" max="3" value="2" class="slider" id="myRange">
+              </div>
+              POHON
+              <div class="slidecontainer">
+                <input type="range" min="1" max="40" value="20" class="slider" id="myRange2">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

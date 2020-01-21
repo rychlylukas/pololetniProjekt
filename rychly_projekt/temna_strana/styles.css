@@ -1,0 +1,88 @@
+.pozadi{
+    background-image: url('../hlavni_strana/images/pozadi.jpg');
+    text-align: center;
+    margin-bottom: 5px;
+}
+.obrazek{
+    height: 17%;
+    width: 17%;
+}
+.tlacitko1{
+    border-color: #FFE81F;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    color: #FFE81F;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 6px;
+}
+.tlacitko2{
+    border-color: #FFE81F;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    color: #FFE81F;
+    border-radius: 8px;
+    text-decoration: none;
+    height: 50%;
+    width: 15.5%;
+    margin-bottom: 1%;
+}
+body{
+    overflow: hidden;
+}
+.center1{
+    display: flex;
+    justify-content: center; 
+    margin: auto;
+    padding-bottom: 20px;
+}
+.azmenseny{
+   margin-left: 8px;
+   margin-right: 8px;
+   margin-top: 85%;
+   border:1px solid #FFE81F;
+}
+.canvascss{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 32%;
+  height: 25px;
+  background: transparent;
+  border: 2px solid #FFE81F;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #FFE81F;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #FFE81F;
+  cursor: pointer;
+}

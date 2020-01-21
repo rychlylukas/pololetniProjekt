@@ -1,0 +1,3 @@
+[0103/143411.140:ERROR:process_info.cc(329)] VirtualQueryEx: Pøístup byl odepøen. (0x5)
+[0103/143411.141:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0103/143411.141:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Došlo k pokusu o pøístup ke konèícímu procesu. (0xc000010a)
