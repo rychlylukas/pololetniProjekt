@@ -86,3 +86,14 @@ body{
   background: #FFE81F;
   cursor: pointer;
 }
+.nastaveni2{
+  background-image: url('../hlavni_strana/images/pozadi.jpg');
+  color: #FFE81F;
+  padding-bottom: 10px;
+  font-size: 150%;
+  
+}
+.nastaveni3{
+  background-image: url('../hlavni_strana/images/pozadi.jpg');
+  color: #FFE81F;
+}

@@ -67,15 +67,15 @@ prekazky[0] = {
 
 //Obtížnosti dle výběru.
 function obtiznost1() {
-    mezera = 90;
+    mezera = 140;
     posun = vyskaPrekazky1 + mezera;
 }
 function obtiznost2() {
-    mezera = 180;
+    mezera = 110;
     posun = vyskaPrekazky1 + mezera;
 }
 function obtiznost3() {
-    mezera = 400;
+    mezera = 80;
     posun = vyskaPrekazky1 + mezera;
 }
 
